@@ -18,6 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        ecommerce: "bg-ecommerce-blue text-white hover:bg-ecommerce-blue-light transition-colors",
+        cart: "bg-ecommerce-orange text-white hover:bg-ecommerce-orange-light transition-colors shadow-md hover:shadow-lg",
+        search: "bg-ecommerce-blue text-white hover:bg-ecommerce-blue-light px-6",
       },
       size: {
         default: "h-10 px-4 py-2",

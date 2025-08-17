@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Ecommerce color tokens
+				'ecommerce-blue': 'hsl(var(--ecommerce-blue))',
+				'ecommerce-blue-light': 'hsl(var(--ecommerce-blue-light))',
+				'ecommerce-orange': 'hsl(var(--ecommerce-orange))',
+				'ecommerce-orange-light': 'hsl(var(--ecommerce-orange-light))',
+				'ecommerce-success': 'hsl(var(--ecommerce-success))',
+				'ecommerce-warning': 'hsl(var(--ecommerce-warning))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -88,7 +95,19 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fadeIn 0.5s ease-out',
+				'slide-up': 'slideUp 0.3s ease-out'
+			},
+			boxShadow: {
+				'card': 'var(--shadow-card)',
+				'product': 'var(--shadow-product)',
+				'header': 'var(--shadow-header)'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-accent': 'var(--gradient-accent)'
 			}
 		}
 	},
